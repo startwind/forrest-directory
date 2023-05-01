@@ -8,7 +8,7 @@ repositories:
       prefix: 'wpdev: '
 
   "friends-of-linux":
-    adapter: yml
+    adapter: yaml
     name: "Friends of Linux"
     description: "Some very helpful everyday Linux commands."
     config:
