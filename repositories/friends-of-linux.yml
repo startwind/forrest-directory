@@ -2,4 +2,4 @@ commands:
   findInFiles:
     name: "files:find"
     description: "Find all files with a specific text pattern in it"
-    prompt: "grep -rnw '/path/to/somewhere/' -e 'pattern'"
+    prompt: "grep -rnw '$pathToCheck' -e '$pattern'"
