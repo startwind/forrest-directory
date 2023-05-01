@@ -1,0 +1,5 @@
+commands:
+  findInFiles:
+    name: "files:find"
+    description: "Find all files with a specific text pattern in it"
+    command: "grep -rnw '/path/to/somewhere/' -e 'pattern'"
