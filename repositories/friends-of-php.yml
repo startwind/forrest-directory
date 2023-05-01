@@ -7,4 +7,4 @@ commands:
   memoryLimit:
     name: "run:memory:limit"
     description: "Run a php CLI command with a defined memory limit"
-    prompt: "php -d memory_limit=128M $filename"
+    prompt: "php -d memory_limit=${limit_in_megabyte}M ${filename}"
