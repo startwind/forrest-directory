@@ -1,5 +1,5 @@
 commands:
-  findInFiles:
-    name: "files:find"
-    description: "Find all files with a specific text pattern in it"
-    prompt: "grep -rnw '$pathToCheck' -e '$pattern'"
+  memoryLimit:
+    name: "run:memory:limit"
+    description: "Run a php CLI command with a defined memory limit"
+    prompt: "php -d memory_limit=${limit_in_megabyte}M ${filename}"
