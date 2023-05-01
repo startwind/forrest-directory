@@ -8,9 +8,8 @@ repositories:
       prefix: 'wpdev: '
 
   "friends-of-linux":
-    adapter: gist
+    adapter: yml
     name: "Friends of Linux"
     description: "Some very helpful everyday Linux commands."
     config:
-      username: "friends-of-wp"
-      prefix: 'wpdev: '
+      file: "https://raw.githubusercontent.com/startwind/forrest-directory/main/repositories/friends-of-linux.yml"
