@@ -2,7 +2,7 @@ commands:
   startServer:
     name: "server:start"
     description: "Starting the built-in web server"
-    command: "php -S localhost:8000"
+    prompt: "php -S localhost:8000"
     
   memoryLimit:
     name: "run:memory:limit"
