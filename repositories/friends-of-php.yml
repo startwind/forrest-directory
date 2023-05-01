@@ -1,0 +1,5 @@
+commands:
+  startServer:
+    name: "server:start"
+    description: "Starting the built-in web server"
+    command: "php -S localhost:8000"
