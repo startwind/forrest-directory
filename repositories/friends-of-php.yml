@@ -3,3 +3,8 @@ commands:
     name: "server:start"
     description: "Starting the built-in web server"
     command: "php -S localhost:8000"
+    
+  memoryLimit:
+    name: "run:memory:limit"
+    description: "Run a php CLI command with a defined memory limit"
+    command: "memory_limit=128M script.php"
