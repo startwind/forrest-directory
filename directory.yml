@@ -14,7 +14,6 @@ repositories:
     config:
       file: "https://raw.githubusercontent.com/startwind/forrest-directory/main/repositories/friends-of-linux.yml"
 
-
   "friends-of-php":
     adapter: yaml
     name: "Friends of PHP"
