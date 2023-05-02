@@ -6,5 +6,5 @@ commands:
 
   findBigFiles:
     name: "files:big:find"
-    description:: "Find all files that are larger than a given size"
+    description: "Find all files that are larger than a given size"
     prompt: "find ${path_to_check} -type f -size +${size_in_mega_byte}M"
