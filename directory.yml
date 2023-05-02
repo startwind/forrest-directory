@@ -1,7 +1,7 @@
 repositories:
   "forrest-wp":
     adapter: gist
-    name: "Friends of WP"
+    name: "Forrester WordPress Repository"
     description: "Some very helpful WordPress commands."
     config:
       username: "friends-of-wp"
@@ -9,14 +9,14 @@ repositories:
 
   "forrest-linux":
     adapter: yaml
-    name: "Friends of Linux"
+    name: "Forrest Linux Repository"
     description: "Some very helpful everyday Linux commands."
     config:
       file: "https://raw.githubusercontent.com/startwind/forrest-directory/main/repositories/friends-of-linux.yml"
 
   "forrest-php":
     adapter: yaml
-    name: "Friends of PHP"
+    name: "Forrest PHP Repository"
     description: "Some very helpful everyday PHP cli commands."
     config:
       file: "https://raw.githubusercontent.com/startwind/forrest-directory/main/repositories/friends-of-php.yml"
