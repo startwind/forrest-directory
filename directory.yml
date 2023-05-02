@@ -1,7 +1,7 @@
 repositories:
-  "forrest-wp":
+  "friends-of-wp":
     adapter: gist
-    name: "Forrester WordPress Repository"
+    name: "Friends of WP"
     description: "Some very helpful WordPress commands."
     config:
       username: "friends-of-wp"
