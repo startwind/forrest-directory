@@ -3,3 +3,8 @@ commands:
     name: "files:find"
     description: "Find all files with a specific text pattern in it"
     prompt: "grep -rnw '${path_to_check}' -e '${pattern}'"
+
+  findBigFiles:
+    name: "files:big:find"
+    description:: "Find all files that are larger than a given size"
+    prompt: "find ${path_to_check} -type f -size +${size_in_mega_byte}M"
