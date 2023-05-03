@@ -8,3 +8,13 @@ commands:
     name: "run:memory:limit"
     description: "Run a php CLI command with a defined memory limit"
     prompt: "php -d memory_limit=${limit_in_megabyte}M ${filename}"
+
+  phpConfigShow
+    name: "php:config:show"
+    description: "Show the PHP configuration for the CLI version"
+    prompt: php -i
+    
+ phpConfigIniWhich
+    name: "php:ini:which"
+    description: "Show the location of the php.ini file (CLI)"
+    prompt: php -i | grep php\.ini
