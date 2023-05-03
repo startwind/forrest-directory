@@ -18,3 +18,8 @@ commands:
     name: "php:ini:which"
     description: "Show the location of the php.ini file (CLI)"
     prompt: php -i | grep php\.ini
+
+  phpLint:
+    name: "php:lint"
+    description: "Check for syntax errors in php files (linting)"
+    prompt: php -l ${filename}
