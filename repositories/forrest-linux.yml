@@ -9,7 +9,7 @@ commands:
     description: "Find all files that are larger than a given size."
     prompt: "find ${path_to_check} -type f -size +${size_in_mega_byte}M"
 
-  my-unique-command-name:
+  files-tar-decompress:
     name: 'files:tar:decompress'
     description: 'Decompress the given tar file'
     prompt: 'tar -zxvf ${filename}'
