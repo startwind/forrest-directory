@@ -21,6 +21,7 @@ commands:
         file-formats:
          - tar.gz
          - tar
+         
   files-zip-decompress:
     name: 'files:zip:decompress'
     description: 'Decompress the given zip file'
