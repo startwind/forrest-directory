@@ -21,3 +21,14 @@ commands:
         file-formats:
          - tar.gz
          - tar
+  files-zip-decompress:
+    name: 'files:zip:decompress'
+    description: 'Decompress the given zip file'
+    prompt: 'unzip ${filename}'
+    parameters:
+      filename:
+        name: zip file
+        description: Zip file that should be extracted
+        type: forrest_filename
+        file-formats:
+         - zip
