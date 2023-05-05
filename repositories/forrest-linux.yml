@@ -44,3 +44,7 @@ commands:
     description: 'Create a symlink.'
     prompt: 'ln -s ${filename} ${link}'
  
+  find-files-older:
+    name: 'files:find:older'
+    description: 'Find all files that are older than a given period.'
+    prompt: 'find ${dir_to_search_in} -mtime +${number_on_days} -print'
