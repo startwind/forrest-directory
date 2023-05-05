@@ -1,1 +1,15 @@
-
+commands:
+  cache-clear:
+    name: "cache:clear"
+    description: "Clear the Symfony cache"
+    prompt: "php bin/console cache:clear"
+    
+  server-start-background:
+    name: "server:start:background"
+    description: "Start server in background mode"
+    prompt: "symfony server:start -d"
+        
+  server-start:
+    name: "server:start"
+    description: "Start server"
+    prompt: "symfony server:start"
