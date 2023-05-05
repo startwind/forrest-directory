@@ -37,4 +37,4 @@ commands:
   find-files-name:
     name: 'files:find:name'
     description: 'Find all files with a given name.'
-    prompt: 'find . -name ${filename}'
+    prompt: 'find ${dir_to_search_in} -name ${filename}'
