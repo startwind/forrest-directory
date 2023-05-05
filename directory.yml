@@ -20,3 +20,10 @@ repositories:
     description: "Some very helpful everyday PHP CLI commands."
     config:
       file: "https://raw.githubusercontent.com/startwind/forrest-directory/main/repositories/forrest-php.yml"
+
+  "forrest-symfony":
+    adapter: yaml
+    name: "Forrest Symfony Repository"
+    description: "Some very helpful everyday Symfony CLI commands."
+    config:
+      file: "https://raw.githubusercontent.com/startwind/forrest-directory/main/repositories/forrest-symfony.yml"
