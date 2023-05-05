@@ -33,3 +33,8 @@ commands:
         type: forrest_filename
         file-formats:
          - zip
+         
+  find-files-name:
+    name: 'files:find:name'
+    description: 'Find all files with a given name.'
+    prompt: 'find . -name ${filename}'
