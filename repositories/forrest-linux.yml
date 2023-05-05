@@ -38,3 +38,9 @@ commands:
     name: 'files:find:name'
     description: 'Find all files with a given name.'
     prompt: 'find ${dir_to_search_in} -name ${filename}'
+
+  files-symlink-create:
+    name: 'files:symlink:create'
+    description: 'Create a symlink.'
+    prompt: 'ln -s ${filename} ${link}'
+ 
