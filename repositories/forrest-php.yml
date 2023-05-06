@@ -56,7 +56,7 @@ commands:
     prompt: php ${filename}
     parameters:
       filename:
-        name: PHÜ file
+        name: PHP file
         description: PHP file that should be executed
         type: forrest_filename
         file-formats:
