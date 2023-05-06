@@ -5,7 +5,7 @@ commands:
     prompt: "php -S localhost:8000"
     
   memoryLimit:
-    name: "run:memory:limit"
+    name: "script:run:memory_limit"
     description: "Run a PHP CLI script with a defined memory limit"
     prompt: "php -d memory_limit=${limit_in_megabyte}M ${filename}"
     parameters:
@@ -17,17 +17,17 @@ commands:
          - php
 
   phpConfigShow:
-    name: "php:config:show"
+    name: "config:show"
     description: "Show the PHP configuration for the CLI version"
     prompt: php -i    
     
   phpConfigIniWhich:
-    name: "php:ini:which"
+    name: "ini:which"
     description: "Show the location of the php.ini file (CLI)"
     prompt: php -i | grep php\.ini
 
   phpLint:
-    name: "php:lint"
+    name: "lint"
     description: "Check for syntax errors in php files (linting)"
     prompt: php -l ${filename}
     parameters:
@@ -39,7 +39,7 @@ commands:
          - php
 
   phpDecompressPhar:
-     name: "php:phar:decompress"
+     name: "phar:decompress"
      description: "Decompress a phar file to a given directory"
      prompt: "php -r '$phar = new Phar(\"${phar_file}\"); $phar->extractTo(\"${directory_to_decompress_to}\");'"
      parameters:
@@ -51,7 +51,7 @@ commands:
          - phar
 
   phpRunScript:
-    name: "php:script:run"
+    name: "script:run"
     description: "Run a PHP CLI script"
     prompt: php ${filename}
     parameters:
