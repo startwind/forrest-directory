@@ -32,7 +32,7 @@ commands:
     prompt: php -l ${filename}
     parameters:
       filename:
-        name: phat file
+        name: PHP file
         description: PHP file that should be linted
         type: forrest_filename
         file-formats:
@@ -49,3 +49,15 @@ commands:
         type: forrest_filename
         file-formats:
          - phar
+
+  phpRunScript:
+    name: "php:run"
+    description: "Run a PHP script"
+    prompt: php ${filename}
+    parameters:
+      filename:
+        name: PHÜ file
+        description: PHP file that should be executed
+        type: forrest_filename
+        file-formats:
+         - php
