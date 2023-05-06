@@ -51,7 +51,7 @@ commands:
          - phar
 
   phpRunScript:
-    name: "php:run"
+    name: "php:script:run"
     description: "Run a PHP script"
     prompt: php ${filename}
     parameters:
