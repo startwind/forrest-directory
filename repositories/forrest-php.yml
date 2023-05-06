@@ -23,3 +23,8 @@ commands:
     name: "php:lint"
     description: "Check for syntax errors in php files (linting)"
     prompt: php -l ${filename}
+
+  phpDecompressPhar:
+    name: "php:phar:decompress"
+     description: "Decompress a phar file to a given directory"
+     prompt: php -r '$phar = new Phar("${phar_file}"); $phar->extractTo("${directory_to_decompress_to}");'
