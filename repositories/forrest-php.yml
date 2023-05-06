@@ -41,7 +41,7 @@ commands:
   phpDecompressPhar:
      name: "php:phar:decompress"
      description: "Decompress a phar file to a given directory"
-     prompt: "php -r '$phar = new Phar("${phar_file}"); $phar->extractTo("${directory_to_decompress_to}");'"
+     prompt: "php -r '$phar = new Phar(\"${phar_file}\"); $phar->extractTo(\"${directory_to_decompress_to}\");'"
      parameters:
       phar_file:
         name: phar file
