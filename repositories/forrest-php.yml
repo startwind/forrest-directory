@@ -8,11 +8,18 @@ commands:
     name: "run:memory:limit"
     description: "Run a php CLI command with a defined memory limit"
     prompt: "php -d memory_limit=${limit_in_megabyte}M ${filename}"
+    parameters:
+      filename:
+        name: PHP file
+        description: PHP file that should be linted
+        type: forrest_filename
+        file-formats:
+         - php    
 
   phpConfigShow:
     name: "php:config:show"
     description: "Show the PHP configuration for the CLI version"
-    prompt: php -i
+    prompt: php -i    
     
   phpConfigIniWhich:
     name: "php:ini:which"
@@ -23,8 +30,22 @@ commands:
     name: "php:lint"
     description: "Check for syntax errors in php files (linting)"
     prompt: php -l ${filename}
+    parameters:
+      filename:
+        name: phat file
+        description: PHP file that should be linted
+        type: forrest_filename
+        file-formats:
+         - php
 
   phpDecompressPhar:
     name: "php:phar:decompress"
      description: "Decompress a phar file to a given directory"
-     prompt: php -r '$phar = new Phar("${phar_file}"); $phar->extractTo("${directory_to_decompress_to}");'
+     prompt: "php -r '$phar = new Phar("${phar_file}"); $phar->extractTo("${directory_to_decompress_to}");'"
+     parameters:
+      phar_file:
+        name: phar file
+        description: Phar file that should be extracted
+        type: forrest_filename
+        file-formats:
+         - phar
