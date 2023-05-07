@@ -61,3 +61,19 @@ commands:
         type: forrest_filename
         file-formats:
          - php
+         
+  version_install:
+      name: 'version:install'
+      description: 'Install a given PHP version.'
+      see: https://www.cloudbooklet.com/upgrade-php-version-to-php-7-4-on-ubuntu/
+      prompt: |
+        sudo apt install software-properties-common
+        sudo add-apt-repository ppa:ondrej/php
+        sudo apt update
+        sudo apt install php${version}
+      parameters:
+          version:
+              enum:
+                  - 7.4
+                  - 8.1
+                  - 8.2         
