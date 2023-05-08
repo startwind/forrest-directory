@@ -27,3 +27,10 @@ repositories:
     description: "Some very helpful everyday Symfony CLI commands."
     config:
       file: "https://raw.githubusercontent.com/startwind/forrest-directory/main/repositories/forrest-symfony.yml"
+      
+  "friends-of-wp":
+    adapter: yaml
+    name: "Friends of WP - WordPress Repository"
+    description: "Some very helpful everyday WordPress CLI commands."
+    config:
+      file: "https://raw.githubusercontent.com/friends-of-wp/forrest-wordpress-repository/main/wp-cli.yml"
