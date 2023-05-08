@@ -1,1 +1,30 @@
-
+commands:
+  cache-flush:
+    name: "cache:flush"
+    description: "Clear the TYPO3 cache"
+    prompt: "vendor/bin/typo3 cache:flush"
+    
+  extension-list:
+    name: "cache:flush"
+    description: ""
+    prompt: "vendor/bin/typo3 extension:list"
+    
+  language-update:
+    name: "language:update"
+    description: ""
+    prompt: "vendor/bin/typo3 language:update"
+    
+  scheduler-run:
+    name: "scheduler:run"
+    description: ""
+    prompt: "vendor/bin/typo3 scheduler:run"
+    
+  upgrade-list:
+    name: "upgrade:list"
+    description: ""
+    prompt: "vendor/bin/typo3 upgrade:list"       
+        
+  upgrade-run:
+    name: "upgrade:run"
+    description: ""
+    prompt: "vendor/bin/typo3 upgrade:run"    
