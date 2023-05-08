@@ -13,3 +13,8 @@ commands:
     name: "server:start"
     description: "Start server"
     prompt: "symfony server:start"
+    
+  database-update-force:
+    name: "database:update:force"
+    description: "Update the database (forece)"
+    prompt: "php bin/console docrine:schema:update --force"
