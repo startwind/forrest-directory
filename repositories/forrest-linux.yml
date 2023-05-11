@@ -8,6 +8,12 @@ commands:
     name: "files:find:big"
     description: "Find all files that are larger than a given size."
     prompt: "find ${path_to_check} -type f -size +${size_in_mega_byte}M"
+    path_to_check:
+        name: tar file
+        description: Tar file that should be extracted
+        type: forrest_filename
+        file-formats:
+         - directory
 
   files-tar-decompress:
     name: 'files:tar:decompress'
