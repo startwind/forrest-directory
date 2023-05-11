@@ -26,3 +26,4 @@ This is the official directory with all registered repository for the [Forrest C
 - `Plesk`
 - `koality CLI`
 - `360 Monitoring`
+- `MySQL`
