@@ -23,3 +23,6 @@ We are in the starting phase of Forrest. That is why this paragraph is still emp
 - `Composer`
 - `Docker`
 - `Laravel`
+- `Plesk`
+- `koality CLI`
+- `360 Monitoring`
