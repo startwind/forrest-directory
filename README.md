@@ -8,3 +8,7 @@ This is the official directory with all registered repository for the [Forrest C
 
 
 - `forrest-php` - This repository contains every PHP CLI command that is needed for professional PHP development. [See the plain repository](repositories/forrest-php.yml)
+
+## Repositories maintained by others
+
+## Repositories we would love to have and are looking for maintainers
