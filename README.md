@@ -17,3 +17,7 @@ We are in the starting phase of Forrest. That is why this paragraph is still emp
 
 - `symfony` & `doctrine`
 - `WordPress`
+- `TYPO3`
+- `Windows`
+- `Git`
+- `Composer`
