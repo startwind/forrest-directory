@@ -1,6 +1,7 @@
 repository:
   name: Awesome CLI Apps
   description: A curated list of command line apps.
+  
 commands:
   entertainment-footballcli:
     name: "entertainment:footballcli"
