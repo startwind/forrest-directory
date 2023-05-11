@@ -11,4 +11,9 @@ This is the official directory with all registered repository for the [Forrest C
 
 ## Repositories maintained by others
 
+We are in the starting phase of Forrest. That is why this paragraph is still empty. And it's ok.
+
 ## Repositories we would love to have and are looking for maintainers
+
+- `symfony` & `doctrine`
+- `WordPress`
