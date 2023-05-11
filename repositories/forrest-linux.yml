@@ -8,12 +8,13 @@ commands:
     name: "files:find:big"
     description: "Find all files that are larger than a given size."
     prompt: "find ${path_to_check} -type f -size +${size_in_mega_byte}M"
-    path_to_check:
-        name: tar file
-        description: Tar file that should be extracted
-        type: forrest_filename
-        file-formats:
-         - directory
+    parameters:
+      path_to_check:
+          name: directory
+          description: the directory to search in
+          type: forrest_filename
+          file-formats:
+           - directory
 
   files-tar-decompress:
     name: 'files:tar:decompress'
@@ -44,6 +45,13 @@ commands:
     name: 'files:find:name'
     description: 'Find all files with a given name.'
     prompt: 'find ${dir_to_search_in} -name ${filename}'
+    parameters:
+      dir_to_search_in:
+          name: directory
+          description: the directory to search in
+          type: forrest_filename
+          file-formats:
+           - directory    
 
   files-symlink-create:
     name: 'files:symlink:create'
@@ -54,3 +62,10 @@ commands:
     name: 'files:find:older'
     description: 'Find all files that are older than a given period.'
     prompt: 'find ${dir_to_search_in} -mtime +${number_on_days} -print'
+    parameters:
+      dir_to_search_in:
+          name: directory
+          description: the directory to search in
+          type: forrest_filename
+          file-formats:
+           - directory    
