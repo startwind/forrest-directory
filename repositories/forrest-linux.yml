@@ -72,8 +72,8 @@ commands:
            
   directory-size:
     name: 'files:directory:size'
-    description: 'Compress the given directory or file'
-    prompt: 'du -sh /var/www ${directory}'
+    description: 'Return the size a of given dir'
+    prompt: 'du -sh ${directory}'
     parameters:
       directory:
         type: forrest_filename
