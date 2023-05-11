@@ -1,5 +1,6 @@
 repositories:
   "friends-of-wp-dev":
+    official: true
     adapter: gist
     name: "Friends of WP"
     description: "Some very helpful WordPress commands."
@@ -8,6 +9,7 @@ repositories:
       prefix: 'wpdev: '
 
   "forrest-linux":
+    official: true  
     adapter: yaml
     name: "Forrest Linux Repository"
     description: "Some very helpful everyday Linux commands."
@@ -15,6 +17,7 @@ repositories:
       file: "https://raw.githubusercontent.com/startwind/forrest-directory/main/repositories/forrest-linux.yml"
 
   "forrest-php":
+    official: true  
     adapter: yaml
     name: "Forrest PHP Repository"
     description: "Some very helpful everyday PHP CLI commands."
@@ -22,6 +25,7 @@ repositories:
       file: "https://raw.githubusercontent.com/startwind/forrest-directory/main/repositories/forrest-php.yml"
 
   "forrest-symfony":
+    official: true  
     adapter: yaml
     name: "Forrest Symfony Repository"
     description: "Some very helpful everyday Symfony CLI commands."
@@ -29,8 +33,18 @@ repositories:
       file: "https://raw.githubusercontent.com/startwind/forrest-directory/main/repositories/forrest-symfony.yml"
       
   "friends-of-wp":
+    official: true
     adapter: yaml
     name: "Friends of WP - WordPress Repository"
     description: "Some very helpful everyday WordPress CLI commands."
     config:
       file: "https://raw.githubusercontent.com/friends-of-wp/forrest-wordpress-repository/main/wp-cli.yml"
+
+  "forrest-awesome-cli":
+    official: false  
+    adapter: yaml
+    name: "Repository based on the awesome cli apps list of adarrharr"
+    description: "Some very helpful everyday Symfony CLI commands."
+    see: https://github.com/agarrharr/awesome-cli-apps
+    config:
+      file: "https://raw.githubusercontent.com/startwind/forrest-directory/main/specials/awesome-cli-apps.yml"
