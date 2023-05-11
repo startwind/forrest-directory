@@ -79,3 +79,25 @@ commands:
         type: forrest_filename
         file-formats:
           - directory
+
+  zip-compress:
+    name: 'zip:compress'
+    description: 'Compress the given directory or file'
+    prompt: 'zip -r ${output_zip_file} ${input_directory}'
+    parameters:
+      input_directory:
+        type: forrest_filename
+        file-formats:
+          - directory
+
+  zip-compress-with-password:
+    name: 'zip:compress:with-password'
+    description: 'Compress the given directory or file'
+    prompt: 'zip --password ${password} -r ${output_zip_file} ${input_directory}'
+    parameters:
+      input_directory:
+        type: forrest_filename
+        file-formats:
+          - directory
+      password:
+        type: forrest_password
