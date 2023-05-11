@@ -1,5 +1,6 @@
 commands:
   footballcli:
     name: "install:footballcli"
+    description: Get live scores, fixtures, standings of almost every football competition/league.
     prompt: npm install -g footballcli
     see: https://github.com/ManrajGrover/football-cli
