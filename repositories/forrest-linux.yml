@@ -69,3 +69,13 @@ commands:
           type: forrest_filename
           file-formats:
            - directory    
+           
+  directory-size:
+    name: 'files:directory:size'
+    description: 'Compress the given directory or file'
+    prompt: 'du -sh /var/www ${directory}'
+    parameters:
+      directory:
+        type: forrest_filename
+        file-formats:
+          - directory
