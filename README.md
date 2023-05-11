@@ -22,3 +22,4 @@ We are in the starting phase of Forrest. That is why this paragraph is still emp
 - `Git`
 - `Composer`
 - `Docker`
+- `Laravel`
