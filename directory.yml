@@ -1,6 +1,6 @@
 repositories:
   "friends-of-wp-dev":
-    official: true
+    official: false
     adapter: gist
     name: "Friends of WP"
     description: "Some very helpful WordPress commands."
