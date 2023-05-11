@@ -40,7 +40,7 @@ repositories:
     config:
       file: "https://raw.githubusercontent.com/friends-of-wp/forrest-wordpress-repository/main/wp-cli.yml"
 
-  "forrest-awesome-cli":
+  "awesome-cli-apps":
     official: false  
     adapter: yaml
     name: "Repository based on the awesome cli apps list of adarrharr"
