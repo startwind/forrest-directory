@@ -8,3 +8,9 @@ commands:
     description: Get live scores, fixtures, standings of almost every football competition/league.
     prompt: "npm install -g footballcli"
     see: https://github.com/ManrajGrover/football-cli
+    
+  entertainment-pockyt:
+    name: "entertainment:pockyt"
+    description: pockyt is a commandline client that interfaces the pocket API and provides a way to interact with your Pocket collection.
+    prompt: "pip install -U pockyt"
+    see: https://github.com/achembarpu/pockyt
