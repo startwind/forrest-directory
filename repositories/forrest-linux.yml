@@ -92,7 +92,7 @@ commands:
 
   zip-compress-with-password:
     name: 'zip:compress:with-password'
-    description: 'Compress the given directory or file'
+    description: 'Compress the given directory or file with a password'
     prompt: 'zip --password ${password} -r ${output_zip_file} ${input_directory}'
     parameters:
       input_directory:
