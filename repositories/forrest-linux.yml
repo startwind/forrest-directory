@@ -23,7 +23,7 @@ commands:
     parameters:
       filename:
         name: tar file
-        description: Tar file that should be extracted
+        description: Tar file that should be extracted.
         type: forrest_filename
         file-formats:
          - tar.gz
@@ -31,7 +31,7 @@ commands:
          
   files-zip-decompress:
     name: 'files:zip:decompress'
-    description: 'Decompress the given zip file'
+    description: 'Decompress the given zip file.'
     prompt: 'unzip ${filename}'
     parameters:
       filename:
@@ -72,7 +72,7 @@ commands:
            
   directory-size:
     name: 'files:directory:size'
-    description: 'Return the size a of given dir'
+    description: 'Return the size a of given dir.'
     prompt: 'du -sh ${directory}'
     parameters:
       directory:
@@ -82,7 +82,7 @@ commands:
 
   zip-compress:
     name: 'zip:compress'
-    description: 'Compress the given directory or file'
+    description: 'Compress the given directory or file.'
     prompt: 'zip -r ${output_zip_file} ${input_directory}'
     parameters:
       input_directory:
