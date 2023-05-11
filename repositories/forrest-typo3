@@ -1,30 +1,30 @@
 commands:
   cache-flush:
     name: "cache:flush"
-    description: "Clear the TYPO3 cache"
+    description: "Cache clearing for all, system or frontend caches."
     prompt: "vendor/bin/typo3 cache:flush"
     
   extension-list:
-    name: "cache:flush"
-    description: ""
+    name: "extension:list"
+    description: "Shows the list of extensions available to the system."
     prompt: "vendor/bin/typo3 extension:list"
     
   language-update:
     name: "language:update"
-    description: ""
+    description: "Update the language files of all activated extensions."
     prompt: "vendor/bin/typo3 language:update"
     
   scheduler-run:
     name: "scheduler:run"
-    description: ""
+    description: "Start the TYPO3 Scheduler from the command line."
     prompt: "vendor/bin/typo3 scheduler:run"
     
   upgrade-list:
     name: "upgrade:list"
-    description: ""
+    description: "List available upgrade wizards."
     prompt: "vendor/bin/typo3 upgrade:list"       
         
   upgrade-run:
     name: "upgrade:run"
-    description: ""
+    description: "Run upgrade wizard. Without arguments all available wizards will be run."
     prompt: "vendor/bin/typo3 upgrade:run"    
