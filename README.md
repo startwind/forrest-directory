@@ -13,8 +13,6 @@ This is the official directory with all registered repository for the [Forrest C
 
 - `friends-of-wp` - All important CLI commands for maintaining a WordPress blog via the wp cli and co. [See the plain repository](https://github.com/friends-of-wp/forrest-wordpress-repository/blob/main/wp-cli.yml)
 
-We are in the starting phase of Forrest. That is why this paragraph is still empty. And it's ok.
-
 ## Repositories we would love to have and are looking for maintainers
 
 - `symfony` & `doctrine`
