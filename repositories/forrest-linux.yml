@@ -101,3 +101,13 @@ commands:
           - directory
       password:
         type: forrest_password
+
+  version-info:
+      name: 'version:info'
+      description: Show information about the Linux version
+      prompt: cat /etc/os-release
+
+  system-ports-open:
+      name: 'system:ports:open'
+      description: Show all open ports
+      prompt: lsof -i -P -n | grep LISTEN
