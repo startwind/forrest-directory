@@ -118,17 +118,17 @@ commands:
       output-format: The file has %s lines.
       prompt: 'cat ${filename} | wc -l'
       
-    'linux:file:show':
-        name: 'linux:file:show'
-        description: 'Show the content of a file.'
-        prompt: 'cat ${filename}'
-        
-    'linux:directory:make':
-        name: 'linux:directory:make'
-        description: 'Create a single directory'
-        prompt: 'mkdir ${directory_name}'
-        
-    'linux:directory:make:recursive':
-        name: 'linux:directory:make:recursive'
-        description: 'Create a directory (recursive).'
-        prompt: 'mkdir -p ${directory_name}'
+  'linux:file:show':
+      name: 'linux:file:show'
+      description: 'Show the content of a file.'
+      prompt: 'cat ${filename}'
+
+  'linux:directory:make':
+      name: 'linux:directory:make'
+      description: 'Create a single directory'
+      prompt: 'mkdir ${directory_name}'
+
+  'linux:directory:make:recursive':
+      name: 'linux:directory:make:recursive'
+      description: 'Create a directory (recursive).'
+      prompt: 'mkdir -p ${directory_name}'
