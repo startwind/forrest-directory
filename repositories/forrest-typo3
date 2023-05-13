@@ -1,6 +1,8 @@
 repository:
    name: TYPO3 CLI Repository
    description: Collection of TYPO3 command line commands
+   suggestions:
+     github-issues: https://github.com/startwind/forrest-directory/issues
    maintainers:
      - nils.langner@startwind.io
      
