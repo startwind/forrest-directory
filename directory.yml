@@ -48,3 +48,14 @@ repositories:
     see: https://github.com/agarrharr/awesome-cli-apps
     config:
       file: "https://raw.githubusercontent.com/startwind/forrest-directory/main/specials/awesome-cli-apps.yml"
+  
+  "forrest-typo3":
+    name: TYPO3 CLI Repository
+    description: Collection of TYPO3 command line commands
+    adapter: yaml
+    suggestions:
+      github-issues: https://github.com/startwind/forrest-directory/issues
+    maintainers:
+      - nils.langner@startwind.io
+    config:
+      file: "https://raw.githubusercontent.com/friends-of-wp/forrest-wordpress-repository/main/wp-cli.yml"      
