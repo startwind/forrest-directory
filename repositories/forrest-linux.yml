@@ -17,7 +17,7 @@ commands:
            - directory
 
   files-tar-decompress:
-    name: 'files:tar:decompress'
+    name: 'tar:decompress'
     description: 'Decompress the given tar file'
     prompt: 'tar -zxvf ${filename}'
     parameters:
@@ -30,7 +30,7 @@ commands:
          - tar
          
   files-zip-decompress:
-    name: 'files:zip:decompress'
+    name: 'zip:decompress'
     description: 'Decompress the given zip file.'
     prompt: 'unzip ${filename}'
     parameters:
