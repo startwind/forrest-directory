@@ -111,3 +111,10 @@ commands:
       name: 'system:ports:open'
       description: Show all open ports
       prompt: lsof -i -P -n | grep LISTEN
+      
+  'file:length':
+      name: 'file:length'
+      description: 'Return the number of lines of a given file.'
+      output-format: The file has %s lines.
+      prompt: 'cat ${filename} | wc -l'
+      
