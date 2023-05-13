@@ -3,6 +3,7 @@ repository:
    description: Collection of TYPO3 command line commands
    maintainers:
      - nils.langner@startwind.io
+     
 commands:
   cache-flush:
     name: "cache:flush"
