@@ -50,7 +50,7 @@ repositories:
       file: "https://raw.githubusercontent.com/startwind/forrest-directory/main/specials/awesome-cli-apps.yml"
   
   "forrest-typo3":
-    name: TYPO3 CLI Repository
+    name: Forrest TYPO3 CLI Repository
     description: Collection of TYPO3 command line commands
     adapter: yaml
     official: false  
