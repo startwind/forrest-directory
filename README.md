@@ -19,7 +19,6 @@ This is the official directory with all registered repository for the [Forrest C
 
 - `symfony` & `doctrine`
 - `WordPress`
-- `TYPO3`
 - `Windows`
 - `Git`
 - `Composer`
