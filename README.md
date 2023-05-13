@@ -12,6 +12,8 @@ This is the official directory with all registered repository for the [Forrest C
 ## Repositories maintained by others
 
 - `friends-of-wp` - All important CLI commands for maintaining a WordPress blog via the [wp cli](https://wp-cli.org/) and co. [See the plain repository](https://github.com/friends-of-wp/forrest-wordpress-repository/blob/main/wp-cli.yml)
+- `typo3` - Collection of TYPO3 command line commands. [See the plain repository](repositories/forrest-typo3.yml)
+
 
 ## Repositories we would love to have and are looking for maintainers
 
