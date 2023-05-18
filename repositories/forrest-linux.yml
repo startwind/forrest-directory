@@ -149,6 +149,7 @@ commands:
               type: forrest_filename
               file-formats:
                   - directory
+                  
   'files:count:files':
       name: 'files:count:files'
       description: 'Return the number of files in a given path'
