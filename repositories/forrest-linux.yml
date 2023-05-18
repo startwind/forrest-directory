@@ -132,3 +132,22 @@ commands:
       name: 'linux:directory:make:recursive'
       description: 'Create a directory (recursive).'
       prompt: 'mkdir -p ${directory_name}'
+
+    'files:count:directory':
+        name: 'files:count:directory'
+        description: 'Return the number of sub-directories in a given path'
+        prompt: 'find ${directory_to_count_in} -type d | wc -l'
+        parameters:
+            directory_to_count_in:
+                type: forrest_filename
+                file-formats:
+                    - directory
+    'files:count:files':
+        name: 'files:count:files'
+        description: 'Return the number of files in a given path'
+        prompt: 'find ${directory_to_count_in} -type f | wc -l'
+        parameters:
+            directory_to_count_in:
+                type: forrest_filename
+                file-formats:
+                    - directory
