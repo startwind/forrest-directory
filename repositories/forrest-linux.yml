@@ -3,6 +3,13 @@ commands:
     name: "files:find:pattern"
     description: "Find all files with a specific text pattern in it."
     prompt: "grep -rnw '${path_to_check}' -e '${pattern}'"
+    parameters:
+      path_to_check:
+          name: directory
+          description: the directory to search in
+          type: forrest_filename
+          file-formats:
+           - directory
 
   findBigFiles:
     name: "files:find:big"
