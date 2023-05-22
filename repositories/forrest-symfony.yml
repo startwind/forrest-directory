@@ -16,5 +16,5 @@ commands:
     
   database-update-force:
     name: "database:update:force"
-    description: "Update the database (forece)"
-    prompt: "php bin/console docrine:schema:update --force"
+    description: "Update the database (force)"
+    prompt: "php bin/console doctrine:schema:update --force"
