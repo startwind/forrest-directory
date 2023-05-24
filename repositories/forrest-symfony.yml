@@ -18,3 +18,15 @@ commands:
     name: "database:update:force"
     description: "Update the database (force)"
     prompt: "php bin/console doctrine:schema:update --force"
+
+  "symfony:server:start":
+      name: "symfony server:start"
+      description: "Start a web server for a Symfony project."
+      prompt: "symfony server:start"
+      runnable: false
+
+  "symfony:server:start-background":
+      name: "symfony server:start-background"
+      description: "Start a web server for a Symfony project in the background."
+      prompt: "symfony server:start -b"
+      runnable: false
