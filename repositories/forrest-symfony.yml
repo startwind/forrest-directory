@@ -28,5 +28,5 @@ commands:
   "symfony:server:start-background":
       name: "symfony server:start-background"
       description: "Start a web server for a Symfony project in the background."
-      prompt: "symfony server:start -b"
+      prompt: "symfony server:start -d"
       runnable: false
