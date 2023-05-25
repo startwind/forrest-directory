@@ -16,6 +16,14 @@ repositories:
     config:
       file: "https://raw.githubusercontent.com/startwind/forrest-directory/main/repositories/forrest-linux.yml"
 
+  "forrest-docker":
+    official: true  
+    adapter: yaml
+    name: "Forrest Docker Repository"
+    description: "Some very helpful everyday Docker commands."
+    config:
+      file: "https://raw.githubusercontent.com/startwind/forrest-directory/main/repositories/forrest-docker.yml"
+
   "forrest-php":
     official: true  
     adapter: yaml
