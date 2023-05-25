@@ -1,0 +1,13 @@
+commands:
+  'container:ssh':
+    name: 'container:ssh'
+    description: 'Starting a shell/bash inside a docker container (login)'
+    runnable: false
+    prompt: 'docker exec -it ${docker_name} ${bin}'
+    parameters:
+      docker_name:
+        enum: "${docker-names()}"
+      bin:
+        enum:
+          - /bin/sh
+          - /bin/bash
