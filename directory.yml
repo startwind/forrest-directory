@@ -14,7 +14,7 @@ repositories:
     name: "Forrest Big Database"
     description: "The big database with all commands known by Forrest."
     config:
-        endpoint: https://forrest.startwind.io/
+        endpoint: https://forrest.startwind.io/api/
 
   "forrest-docker":
     official: true  
